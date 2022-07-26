@@ -60,7 +60,7 @@ function App() {
             </p>
 
             <p>
-              you have a <b>{character.reward}$ bounty</b> on your head.
+              you have a <b>{character.reward}s bounty</b> on your head.
             </p>
           </section>
 
