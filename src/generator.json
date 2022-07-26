@@ -494,9 +494,11 @@
     {
       "name": "Drifter",
       "skills": [
+        "#{BONUS_SKILL}",
         "#{BONUS_SKILL}"
       ],
       "items": [
+        "#{BONUS_ITEM}",
         "#{BONUS_ITEM}"
       ]
     }

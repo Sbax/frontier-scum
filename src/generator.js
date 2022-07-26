@@ -3,7 +3,7 @@ import data from "./generator.json";
 
 import { getFromArrayWithRoll, getRandomFromArray, rollDices } from "./utils";
 
-const { crimes, deadOrAlive, backgrounds, bonus, horse, guns, hats } = data;
+const { crimes, deadOrAlive, backgrounds, horse, guns, hats } = data;
 const { first, last, nick } = data.name;
 
 const BONUS_ITEM = "#{BONUS_ITEM}";
@@ -39,9 +39,9 @@ const generateCrime = () => {
 const generateDeadOrAlive = () =>
   getFromArrayWithRoll(deadOrAlive, roll("1d4").result).name;
 
-const generateBonusSkill = () => getRandomFromArray(bonus.skill);
-const generateBonusItem = () => {
-  const item = getRandomFromArray(bonus.item);
+const generateBonusSkill = (bonus) => getRandomFromArray(bonus.skill, true);
+const generateBonusItem = (bonus) => {
+  const item = getRandomFromArray(bonus.item, true);
 
   return [item.name, getRandomFromArray(item.variants || [])]
     .filter(Boolean)
@@ -49,32 +49,42 @@ const generateBonusItem = () => {
     .join(" ");
 };
 
-const generateBackgroundSkill = (array) => {
-  const skill = getRandomFromArray(array);
+const generateBackgroundSkill = (array, bonus) => {
+  const skill = getRandomFromArray(array, true);
   if (skill === BONUS_SKILL) {
-    return generateBonusSkill();
+    return generateBonusSkill(bonus);
   }
 
   return skill;
 };
 
-const generateBackgroundItem = (array) => {
-  const item = getRandomFromArray(array);
+const generateBackgroundItem = (array, bonus) => {
+  const item = getRandomFromArray(array, true);
 
   if (item === BONUS_ITEM) {
-    return generateBonusItem();
+    return generateBonusItem(bonus);
   }
 
   return rollDices(item);
 };
 
-const generateBackground = () => {
+const generateBackground = (bonus) => {
   const { name, phrasing, skills, items } = getRandomFromArray(backgrounds);
+
+  const backgroundSkills = [...skills];
+  const backgroundItems = [...items];
+
   return {
     name,
     phrasing,
-    skills: [generateBackgroundSkill(skills), generateBackgroundSkill(skills)],
-    items: [generateBackgroundItem(items), generateBackgroundItem(items)],
+    skills: [
+      generateBackgroundSkill(backgroundSkills, bonus),
+      generateBackgroundSkill(backgroundSkills, bonus),
+    ],
+    items: [
+      generateBackgroundItem(backgroundItems, bonus),
+      generateBackgroundItem(backgroundItems, bonus),
+    ],
   };
 };
 
@@ -115,15 +125,20 @@ const generateHat = () => {
 };
 
 export const generateCharacter = () => {
+  const currentBonus = {
+    skill: [...data.bonus.skill],
+    item: [...data.bonus.item],
+  };
+
   const name = generateName();
   const outlaw = generateOutlaw();
   const { crime, reward } = generateCrime();
   const deadOrAlive = generateDeadOrAlive();
-  const background = generateBackground();
+  const background = generateBackground(currentBonus);
 
   const bonus = {
-    skill: generateBonusSkill(),
-    item: generateBonusItem(),
+    skill: generateBonusSkill(currentBonus),
+    item: generateBonusItem(currentBonus),
   };
 
   const horse = generateHorse();
