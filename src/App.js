@@ -164,7 +164,7 @@ function App() {
         </p>
         <p>
           This generator is an independent production by{" "}
-          <a href="https://mb.maletta.space">Sbax</a> and is not affiliated with
+          <a href="https://mb.maletta.space">Sbax</a> and is not affiliated with{" "}
           <b>Den of Druids</b>. It is published under the{" "}
           <a href="https://frontierscum.com/license">
             <b>FRONTIER SCUM Third-Party License.</b>
