@@ -72,8 +72,13 @@ ul {
   }
 }
 
+footer {
+  margin-bottom: 1em;
+}
+
 @media print {
-  header {
+  header,
+  footer {
     display: none;
   }
 
