@@ -159,12 +159,16 @@ function App() {
       </section>
 
       <footer>
-        <p>FRONTIER SCUM is copyright Den of Druids.</p>
+        <p>
+          <b>FRONTIER SCUM</b> is copyright <b>Den of Druids.</b>
+        </p>
         <p>
           This generator is an independent production by{" "}
           <a href="https://mb.maletta.space">Sbax</a> and is not affiliated with
-          Den of Druids. It is published under the FRONTIER SCUM Third-Party
-          License.
+          <b>Den of Druids</b>. It is published under the{" "}
+          <a href="https://frontierscum.com/license">
+            <b>FRONTIER SCUM Third-Party License.</b>
+          </a>
         </p>
       </footer>
     </main>
