@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Alegreya', serif;
+
+  background: radial-gradient(ellipse at center, #fff 0%, #ccc 100%);
+}
+
+@for $index from 1 through 6 {
+  h#{$index} {
+    margin: 0;
+    font-size: 1em + 0.1 * (6 - $index);
+  }
+}
+
+b {
+  font-weight: 900;
+  font-family: 'Alegreya SC', serif;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

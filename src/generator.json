@@ -1,0 +1,853 @@
+{
+  "name": {
+    "first": [
+      "Belliam",
+      "Petjemen",
+      "Artham",
+      "Picholas",
+      "Elidor",
+      "Emory",
+      "Gundis",
+      "Stunice",
+      "Bean",
+      "Charl",
+      "Meatrice",
+      "Porcine",
+      "Lemslie",
+      "Bluth",
+      "Kedebra",
+      "Habel",
+      "Hurley",
+      "Quillward",
+      "Ellram",
+      "Helma",
+      "Hamsor",
+      "Medvin",
+      "Stacob",
+      "Takota",
+      "Belzebeth",
+      "Torchibald",
+      "Leodora",
+      "Weslee",
+      "Leopack",
+      "Deadward",
+      "Moriss",
+      "Windor",
+      "Rodie",
+      "Theodrone",
+      "Parcheval",
+      "Kildred"
+    ],
+    "nick": [
+      "“Snake Toes”",
+      "“Dunderhead”",
+      "“Gadabout”",
+      "“Cat Wrangler”",
+      "“Scrancher”",
+      "“Tallow”",
+      "“Smokes”",
+      "“Soap Lock”",
+      "“Big”",
+      "“Jugful”",
+      "“Scab Herder”",
+      "“Harum-Scarum”",
+      "“Rotgut”",
+      "“Balderdash”",
+      "“Dusty Roads”",
+      "“Old Rat”",
+      "“Firebug”",
+      "“Bar Dog”",
+      "“Curdles”",
+      "“Grubworm”",
+      "“Afterclaps”",
+      "“Webfoot”",
+      "“Slobbers”",
+      "“Flea Trap”",
+      "“Roach”",
+      "“Buzzard Bait”",
+      "“Sourmash”",
+      "“Slim”",
+      "“Cadaver Kid”",
+      "“Waterweight”",
+      "“Bigmouth”",
+      "“Crusty”",
+      "“Wisecrack”",
+      "“Sweet”",
+      "“Killer”",
+      "“Skunk Eggs”"
+    ],
+    "last": [
+      "Bad",
+      "Dungary",
+      "Gambit",
+      "Sprains",
+      "Jamsom",
+      "Odyang",
+      "Bytheway",
+      "Goodmonsen",
+      "Slugtop",
+      "Meskaro",
+      "Cussi",
+      "Boomsled",
+      "Breaks",
+      "Moska",
+      "Scotum",
+      "Leeks",
+      "Smokes",
+      "Hoot",
+      "Pang",
+      "Holler",
+      "Pitts",
+      "Fumes",
+      "Gummy",
+      "Elseworth",
+      "Craggs",
+      "Bilgeburn",
+      "Fenapple",
+      "Goode",
+      "Haggard",
+      "Casket",
+      "Pains",
+      "Botherby",
+      "Beard",
+      "Femurs",
+      "Song",
+      "Cuts"
+    ]
+  },
+  "outlaw": {
+    "with": [
+      "A Liar’S Schooling",
+      "A Coward's Machinations",
+      "Concealed Purpose",
+      "A Penchant For Grudges",
+      "A Mysterious Past",
+      "A Loud Mouth",
+      "Misgivings Of Honor",
+      "A Lack Of Judgment",
+      "An Expensive Education",
+      "A Flashing Temper",
+      "Friends In High Places",
+      "A Cold Conscience",
+      "A Politician’S Outlook",
+      "An Extensive Vocabulary",
+      "A Know-It-All’S Pride",
+      "An Artist's Soul",
+      "An Apathetic Disposition",
+      "A Stubborn Personality",
+      "A Rebellious Attitude",
+      "Hypocritical Tendencies",
+      "Unbridled Joie De Vivre",
+      "An Unquenchable Thirst",
+      "Illusions Of Grandeur",
+      "An Optimistic Streak",
+      "A Cynical Facade",
+      "An Appetite For Danger",
+      "Delicate Sensibilities",
+      "A Habit For Rumors",
+      "A Cavalier Attitude",
+      "Morals For Sale",
+      "Expensive Tastes",
+      "Night Terrors",
+      "Silver Fever",
+      "An Inquiring Mind",
+      "An Unearthly Hunger",
+      "A Need To Preach"
+    ],
+    "and": [
+      "Sharpened teeth",
+      "Piercing eyes",
+      "A forked tongue",
+      "A breath to remember",
+      "A bone-white smile",
+      "Piercings aplenty",
+      "A grating cough",
+      "A mess of bad innards",
+      "#{3d6} crude tattoos",
+      "#{3d6} bullet scars",
+      "A telltale scar",
+      "Wooden dentures",
+      "Bleeding gums",
+      "Tobacco-stained teeth",
+      "Lumbago",
+      "Watery eyes",
+      "#{3d6} teeth",
+      "Beset by fleas",
+      "#{1d8+1} toes",
+      "Clammy hands",
+      "Wind-flayed skin",
+      "A glass eye",
+      "A broken nose",
+      "A singer’s voice",
+      "Cauliflower ears",
+      "Missing a nose",
+      "Plague-pox scars",
+      "A hook hand",
+      "A groomed appearance",
+      "Silver-blued skin",
+      "A wheezing cough",
+      "#{1d4} missing fingers",
+      "Cropped ears",
+      "A signature laugh",
+      "#{3d6} silver teeth (worth 1s each)",
+      "A shotgun leg (d4/2d4) with a slot’s worth of shells"
+    ]
+  },
+  "crimes": {
+    "adjective": [
+      "Accidental",
+      "Attempted",
+      "Good-humored",
+      "Casual",
+      "Unoriginal",
+      "Horse",
+      "Wanton",
+      "Hired",
+      "Gruesome",
+      "Spectacular",
+      "Repeated",
+      "Unionized"
+    ],
+    "noun": [
+      "Loitering",
+      "Fraud",
+      "Extortion",
+      "Picketing",
+      "Smuggling",
+      "Theft",
+      "Burglary",
+      "Robbery",
+      "Rustling",
+      "Grave robbing",
+      "Arson",
+      "Murder"
+    ]
+  },
+  "deadOrAlive": [
+    {
+      "rollAtLeast": 1,
+      "name": "Dead or Alive"
+    },
+    {
+      "rollAtLeast": 3,
+      "name": "Dead"
+    },
+    {
+      "rollAtLeast": 4,
+      "name": "Alive"
+    }
+  ],
+  "backgrounds": [
+    {
+      "name": "Carcass Trapper",
+      "phrasing": {
+        "skill": "you learned when",
+        "item": "tools of the carrion trade"
+      },
+      "skills": [
+        "A friend tried to eat you",
+        "Coyotes stole your carrion",
+        "You found a ripe deer in a tree",
+        "The river filled with dead fish",
+        "Nightbears tracked you for days",
+        "Your gutting knife broke"
+      ],
+      "items": [
+        "#{1d100} animal teeth",
+        "#{1d6} pieces of skunk jerky",
+        "Shaker of black salt",
+        "Jar of coyote urine",
+        "Gutting knife",
+        "Mangy fur (-1 incoming damage)"
+      ]
+    },
+    {
+      "name": "Frostbit Prospector",
+      "phrasing": {
+        "skill": "learned while",
+        "item": "loot from the silver mines"
+      },
+      "skills": [
+        "The fire died in a blizzard",
+        "They stole your nuggets",
+        "Stuck in a glacial ravine",
+        "Hunted by sabre cats",
+        "Making your own dynamite",
+        "The mine flooded with water"
+      ],
+      "items": [
+        "Pickaxe",
+        "Snow goggles",
+        "Fuse (#{1d100} ft.)",
+        "#{1d4} sticks of dynamite (d4*+4)",
+        "Winter coat (-1 damage)",
+        "Lantern with oil for #{1d6} hours"
+      ]
+    },
+    {
+      "name": "Discharged Deputy",
+      "phrasing": {
+        "skill": "earned by",
+        "item": "lawfolk's knick-knacks"
+      },
+      "skills": [
+        "Killing the wrong scum",
+        "Losing the cell keys",
+        "Not sharing your bribes",
+        "Bringing a sword to a gunfight",
+        "Arresting the sheriff",
+        "Drinking on the job"
+      ],
+      "items": [
+        "List of d100 wanted outlaws",
+        "Heavy wool coat (-1 damage)",
+        "Deputy badge",
+        "Sheriff's sabre",
+        "Handcuffs and key",
+        "Spyglass"
+      ]
+    },
+    {
+      "name": "Suffering Clerk",
+      "phrasing": {
+        "skill": "from that time you",
+        "item": "office supplies and such"
+      },
+      "skills": [
+        "Got locked in the vault after closing",
+        "Became hostage in a robbery gone wrong",
+        "Acted the director's scapegoat",
+        "Had to fight an angry depositor",
+        "Skimmed a little silver off the top",
+        "Won the 'employee of the month' award"
+      ],
+      "items": [
+        "Heavy fur coat (-1 damage)",
+        "Briefcase containing #{1d100} useless documents",
+        "Bottle of ink and a fountain pen",
+        "Poetry book",
+        "Abacus",
+        "Notepad"
+      ]
+    },
+    {
+      "name": "Butcher-Cook",
+      "phrasing": {
+        "skill": "learned when",
+        "item": "ingredients and utensils"
+      },
+      "skills": [
+        "Rats claimed the pantry",
+        "All the meat rotted",
+        "The kitchen caught on fire",
+        "Someone poisoned your stew",
+        "There was only dirt to eat",
+        "The hog wasn't wholly dead"
+      ],
+      "items": [
+        "Beef shank (5 meals)",
+        "Meat hook",
+        "Sack of flour",
+        "Rolling pin",
+        "Meat cleaver",
+        "#{1d100} pinches of mixed spices"
+      ]
+    },
+    {
+      "name": "Doctor Sans Diploma",
+      "phrasing": {
+        "skill": "you picked up while",
+        "item": "medicines or thereabouts"
+      },
+      "skills": [
+        "Sneaking into medical school",
+        "Practicing surgery on stolen corpses",
+        "Selling organs to the highest bidder",
+        "Forging prescriptions in the night",
+        "Stealing an actual doctor's identity",
+        "Making medicine from sewer slop"
+      ],
+      "items": [
+        "#{1d100} sugar pills",
+        "Injury kit (heal back to 0 + doctor's Wits HP, #{1d4} uses)",
+        "Needle and thread",
+        "Laudanum (heal d4 HP and Drunk if not fully healed, #{1d4} uses)",
+        "Doctor's bag (heal d6 + doctor's Wits HP, #{1d6} uses)",
+        "Opium tincture (heal d10, DR18 Grit or deep sleep, #{1d4} uses)"
+      ]
+    },
+    {
+      "name": "Ghoulish Undertaker",
+      "phrasing": {
+        "skill": "gained by",
+        "item": "burial accessories"
+      },
+      "skills": [
+        "Digging graves in a mire",
+        "Hiding from ghouls",
+        "Making things from bone",
+        "Gathering coffin wood",
+        "Reburying the headstrong",
+        "Working in the dark"
+      ],
+      "items": [
+        "Shovel",
+        "Crowbar",
+        "Makeup kit (#{1d100} uses)",
+        "Carved femur",
+        "#{1d10} wax candles",
+        "Pet rat (HP 1 bite 1, loves you)"
+      ]
+    },
+    {
+      "name": "Calloused Ranch Hand",
+      "phrasing": {
+        "skill": "born from",
+        "item": "nice-to-haves"
+      },
+      "skills": [
+        "Slacking off in the manure pit",
+        "Hosting fights in the bullpen",
+        "Shoeing an angry horse",
+        "Racing wagons on the range",
+        "Branding the wrong cow",
+        "Herding cattle through a cave"
+      ],
+      "items": [
+        "#{1d4} horseshoes",
+        "Barbed wire (15 ft.)",
+        "Branding iron",
+        "Rope (#{1d100} ft.)",
+        "Small wagon (1+ horse)",
+        "Whip"
+      ]
+    },
+    {
+      "name": "Factory Cog",
+      "phrasing": {
+        "skill": "learned from",
+        "item": "things from the shop floor"
+      },
+      "skills": [
+        "Getting stuck between gears",
+        "Working for a week straight",
+        "Fighting the foreman's thugs",
+        "Climbing the smogpipe",
+        "Lifting beams with your back",
+        "Napping in the boiler room"
+      ],
+      "items": [
+        "Sledgehammer",
+        "Bag of lead shavings",
+        "#{1d100} company scrip",
+        "Wrench",
+        "Sack of charcoal",
+        "Iron chain (15 ft.)"
+      ]
+    },
+    {
+      "name": "Gambler and a Cheat",
+      "phrasing": {
+        "skill": "from that time you",
+        "item": "betting essentials"
+      },
+      "skills": [
+        "Were thrown into a busy street",
+        "Bet your life and lost",
+        "Were thrown from a balcony",
+        "Got hustled by another scum",
+        "Were thrown from a riverboat",
+        "Bet your life and won"
+      ],
+      "items": [
+        "Deck of marked cards",
+        "Silver pocketwatch",
+        "Pomade",
+        "Tinted glasses",
+        "#{1d4} fine cigars",
+        "#{1d100} ceramic chips"
+      ]
+    },
+    {
+      "name": "Charlatan and a Fraud",
+      "phrasing": {
+        "skill": "from when you",
+        "item": "invaluable products"
+      },
+      "skills": [
+        "Were surrounded by rabble",
+        "Fleeced the wrong scum",
+        "Made your first silver",
+        "Were chased out of town",
+        "Lost your entire stock",
+        "Sold some actual treasure"
+      ],
+      "items": [
+        "Self-help bible",
+        "Clothes iron",
+        "Fool's silver candlestick",
+        "d100 business cards",
+        "Expensive perfume",
+        "Embroidered handkerchief"
+      ]
+    },
+    {
+      "name": "Drifter",
+      "skills": [
+        "#{BONUS_SKILL}"
+      ],
+      "items": [
+        "#{BONUS_ITEM}"
+      ]
+    }
+  ],
+  "bonus": {
+    "skill": [
+      "You had the best day of your life",
+      "You learned a craft",
+      "You killed your first scum",
+      "You got a friend in trouble",
+      "You were hanged for your crimes",
+      "You committed your first crime",
+      "A loan shark came to collect",
+      "Other scum took all you had",
+      "You were lost in the wilderness",
+      "The train derailed",
+      "You drank overmuch",
+      "You went to a funeral ",
+      "Your horse ran off with another scum",
+      "You had to leave town unseen ",
+      "The stagecoach went over a cliff",
+      "You fell into the river",
+      "You got shot at for the first time",
+      "The beans went bad",
+      "The theatre came to town",
+      "You staged a jailbreak",
+      "You were dragged behind your horse",
+      "You spent a year locked up",
+      "You got lost in the streets",
+      "You caught the plague pox",
+      "You were accepted into a gang",
+      "The saloon caught on fire",
+      "You dug your own grave",
+      "You went to a dinner party",
+      "You missed the train",
+      "You got a nasty wound",
+      "The general store was robbed",
+      "The outhouse door jammed behind you",
+      "Your horse died",
+      "You were caught in a storm",
+      "You were mistaken for another scum",
+      "You had the worst day of your life"
+    ],
+    "item": [
+      {
+        "name": "#{1d10} silver"
+      },
+      {
+        "name": "Bottle",
+        "variants": [
+          "Sharpshooter Spirits (Drunk 2, #{1d8} drinks, includes pistol slugs)",
+          "Gougenburg whiskey (Drunk 2, #{1d8} drinks)",
+          "Slackgaff pale ale (Drunk 1. 1 drink)",
+          "666-proof gin (Drunk d6, #{1d6} drinks, wakes unconscious creatures)",
+          "Sickwater grog (Drunk 3, #{1d6} drinks, corrodes metal)",
+          "Unheimlich Blend (Drunk d6, #{1d6} drinks, causes hallucinations)",
+          "Watery Wilsom's Whiskey (Drunk 1, #{1d8} drinks, tastes of sweat)",
+          "Chateaux Gullet Red (Drunk 2, #{1d4} drinks)"
+        ]
+      },
+      {
+        "name": "Fly net"
+      },
+      {
+        "name": "Straight razor"
+      },
+      {
+        "name": "Washcloth"
+      },
+      {
+        "name": "Reading glasses"
+      },
+      {
+        "name": "Grappling hook"
+      },
+      {
+        "name": "Umbrella"
+      },
+      {
+        "name": "Small tent (2 people)"
+      },
+      {
+        "name": "Horse brush"
+      },
+      {
+        "name": "Health Item",
+        "variants": [
+          "Injury kit (heal back to 0 + doctor's Wits HP, #{1d4} uses)",
+          "#{1d8} gin pills (heal d4 HP but only when drunk)",
+          "Healthful Bitters (heal d4 HP, cures Miserable on 3+, 1 use)",
+          "Antivenom (cures Snakebit, 1 use)"
+        ]
+      },
+      {
+        "name": "Sheepskin gloves"
+      },
+      {
+        "name": "#{1d20} matches"
+      },
+      {
+        "name": "Rope (30 ft.)"
+      },
+      {
+        "name": "#{1d20} pieces of chewing gum"
+      },
+      {
+        "name": "Can Of Beans",
+        "variants": [
+          "Baked beans in tomato sauce",
+          "Lead beans in gas gravy (d4 damage as pistol slugs)",
+          "Meaty beans in offal",
+          "Stubbshead beans in brine",
+          "Big bean in bean juice",
+          "Bursting beans in jelly (can explodes when heated, d4* damage)",
+          "Sourstink beans in lard",
+          "Skinny beans (tapeworm eggs) in pond sauce",
+          "Beanmash with bits of bog meat",
+          "Rat's beans in brandy sauce (Drunk 1)"
+        ]
+      },
+      {
+        "name": "Bedroll"
+      },
+      {
+        "name": "#{1d20} cigarettes"
+      },
+      {
+        "name": "#{1d6} strips of beef jerky"
+      },
+      {
+        "name": "Bar of soap"
+      },
+      {
+        "name": "Change of formalwear"
+      },
+      {
+        "name": "Tub of vaseline"
+      },
+      {
+        "name": "Fishing rod"
+      },
+      {
+        "name": "Tin of tea leaves (#{1d20} uses)"
+      },
+      {
+        "name": "Bear trap (#{1d8} damage)"
+      },
+      {
+        "name": "Flip lighter"
+      },
+      {
+        "name": "Blanket"
+      },
+      {
+        "name": "Hunting knife"
+      },
+      {
+        "name": "Skillet"
+      },
+      {
+        "name": "Large tent (4 people)"
+      },
+      {
+        "name": "Chewing tobacco (#{1d20} uses)"
+      },
+      {
+        "name": "Spare boots"
+      },
+      {
+        "name": "Tin of #{1d20} biscuits"
+      },
+      {
+        "name": "Hatchet"
+      },
+      {
+        "name": "Chocolate bar"
+      },
+      {
+        "name": "Personal Memento",
+        "variants": [
+          "Ripped photograph",
+          "Engraved silver ring",
+          "Wrinkled newspaper clipping",
+          "Defaced wanted poster",
+          "Well-read letter",
+          "Old key",
+          "Bloodied contract",
+          "Page torn from a book",
+          "Cracked horseshoe",
+          "Tarnished medal",
+          "Locket with bleached portrait",
+          "Well-worn guitar",
+          "Broken handcuffs",
+          "Embossed harmonica",
+          "Torn theater ticket",
+          "Scratched pocketwatch",
+          "Embroidered handkerchief",
+          "Waterlogged journal",
+          "Stained invitation",
+          "Marked bullet"
+        ]
+      }
+    ]
+  },
+  "horse": {
+    "types": [
+      {
+        "rollAtLeast": 1,
+        "type": "Nag",
+        "notes": "HP #{1d4} Morale #{1d10+1}, very slow, bad at everything"
+      },
+      {
+        "rollAtLeast": 2,
+        "type": "Donkey",
+        "notes": "HP #{1d6} Morale #{1d4+7}, slow, bad at maneuvering"
+      },
+      {
+        "rollAtLeast": 7,
+        "type": "Mule",
+        "notes": "HP #{1d4+2} Morale #{1d6+5}, slow"
+      },
+      {
+        "rollAtLeast": 12,
+        "type": "Riding horse",
+        "notes": "HP #{1d6+2} Morale #{1d6+5}"
+      },
+      {
+        "rollAtLeast": 18,
+        "type": "Draft horse",
+        "notes": "HP #{1d8+4} Morale #{1d4+7}, slow, good at pulling, bad at maneuvering"
+      },
+      {
+        "rollAtLeast": 20,
+        "type": "Race horse",
+        "notes": "HP #{1d6+4} Morale #{1d6+5}, very fast, good at maneuvering"
+      }
+    ],
+    "coat": [
+      "Brown",
+      "Brown",
+      "White",
+      "Grey",
+      "Black",
+      "Painted"
+    ],
+    "likes": [
+      "Pre-chewed hay",
+      "Being tucked in",
+      "Imported liquor",
+      "Scaring lawfolk",
+      "Human food",
+      "Staying dry",
+      "Being saddle free",
+      "A braided mane",
+      "The rain",
+      "Sad music",
+      "A silver a day",
+      "PC-on-PC violence",
+      "Eating raw flesh",
+      "Sniffing gunpowder",
+      "Neighing at night",
+      "Showing off",
+      "Chewing boots",
+      "A daily bath",
+      "Running in circles",
+      "Adrenaline rushes",
+      "Staying indoors",
+      "Peace and quiet",
+      "Sugar cubes",
+      "Rushing headfirst",
+      "Laughter",
+      "Watching duels",
+      "Being read to",
+      "Carrying carrion",
+      "Positive feedback",
+      "Taunting predators",
+      "Smoking cigarettes",
+      "Putting out fires",
+      "Crushing bones",
+      "Naps at high noon",
+      "Kicking doors",
+      "Changing owners"
+    ]
+  },
+  "guns": [
+    {
+      "rollAtLeast": 11,
+      "name": "Pocket pistol (d6, fits in a pocket)"
+    },
+    {
+      "rollAtLeast": 15,
+      "name": "Revolver (d6*)"
+    },
+    {
+      "rollAtLeast": 41,
+      "name": "Rat rifle (d4*)"
+    },
+    {
+      "rollAtLeast": 44,
+      "name": "Repeater rifle (d6*)"
+    },
+    {
+      "rollAtLeast": 53,
+      "name": "Hunting rifle (d8)"
+    },
+    {
+      "rollAtLeast": 56,
+      "name": "Long rifle (d10)"
+    },
+    {
+      "rollAtLeast": 61,
+      "name": "Sawed-off shotgun (d4/2d4 both barrels)"
+    },
+    {
+      "rollAtLeast": 64,
+      "name": "Double-barreled shotgun (d6/2d6 both barrels)"
+    }
+  ],
+  "hats": {
+    "colors": [
+      "black cherry",
+      "midnight blue",
+      "charcoal",
+      "steel",
+      "chocolate brown",
+      "tuscan brown",
+      "pecan brown",
+      "buckskin brown",
+      "light brown",
+      "bone white",
+      "silver sand white",
+      "crystal white"
+    ],
+    "materials": [
+      "straw",
+      "straw",
+      "straw",
+      "felt",
+      "felt",
+      "felt",
+      "leather"
+    ],
+    "conditions": [
+      "new",
+      "second hand",
+      "worn out",
+      "dusty",
+      "chipped",
+      "old",
+      "crumpled",
+      "way too large"
+    ]
+  }
+}
